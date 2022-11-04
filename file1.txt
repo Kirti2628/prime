@@ -1,0 +1,34 @@
+//java parameterized
+
+public class SumOfNumbers4  
+{  
+public static void main(String args[])  
+{  
+int x = Integer.parseInt(args[0]);
+int y = Integer.parseInt(args[1]);
+int sum = x + y;  
+System.out.println("The sum of x and y is: " +sum);  
+}  
+} 
+
+
+
+//java non para
+
+
+class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!"); 
+    }
+}
+
+
+
+//py para
+
+
+import sys
+x=int(sys.argv[1])
+y=int(sys.argv[2])
+sum=x+y
+print("The addition is :",sum)
